@@ -280,7 +280,6 @@ public class MidTerm extends Application {
         vBox_birthdayTitle.getChildren().addAll(birthdayLabel, yearLabel,
                 yearText,submitButton);
         
-        
         birthdaySplit.getItems().addAll(vBox_birthdayTitle, list);
         birthdaySplit.setOrientation(Orientation.VERTICAL);
         birthdayBorder.setCenter(birthdaySplit);
